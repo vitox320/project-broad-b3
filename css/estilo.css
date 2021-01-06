@@ -1,0 +1,43 @@
+a.aLeft{
+    margin-left: 600px;
+}
+.nome{
+    font-weight: bold;
+}
+.assunto{
+    font-size: 10pt;
+    font-weight: bold;
+}
+.mensagem{
+    font-size: 10pt;
+}
+.caixa{
+    margin-bottom: 15px;
+}
+.caixa:active{
+    background-color: rgb(87, 121, 173);
+    transition: .3s;
+}
+
+/*
+@media(max-width: 1200px){
+    a.aLeft{
+        margin-left: 400px;
+    }
+}
+@media(max-width: 992px){
+    a.aLeft{
+        margin-left: 200px;
+    }
+}
+@media(max-width: 768px){
+    a.aLeft{
+        margin-left: 100px;
+    }
+}
+@media(max-width:542px){
+    a.aLeft{
+        margin-left: 0px;
+    }
+}
+*/
